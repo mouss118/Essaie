@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <script src="
+        https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"
+   ></script>
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Mouhsine</title>
+    <meta name="description" content="Ceci est mon site internet">
+    <meta name="id.jpeg" content="https:famimouhsine.netlifyapp.com/id.jpeg">
+    <link rel="stylesheet" href="ss.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <div class="bod">
+        <div>
+            <img src="id.jpeg" alt="" class="im1">
+        </div>
+        <br>
+        <div class="bod1" class="row">
+            <div class="animate__animated animate__heartBeat animate__infinite	"> <h3>Hello I am FAMI Mouhsine</h3></div>
+           
+        </div>
+        <br>
+        <div class="bod2">
+            <h3>I am a computer science student. I am web developer</h3>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <div class="text1">
+            <u><i><h3> Découvre moi à travers ça </h3></i></u>
+        </div>
+        
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                  <img src="barca.png" width="300" >
+                </div>
+                <div class="col-sm">
+                  <img src="real.png" width="300"  >
+                </div>
+                <div class="col-sm">
+                  <img src="chel.png" width="300"  >
+                </div>
+              </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                  <img src="man.png" width="300" >
+                </div>
+                <div class="col-sm">
+                  <img src="psg.jpeg" width="300"  >
+                </div>
+                <div class="col-sm">
+                  <img src="om.png" width="300"  >
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <div class="text2">
+        <u><i><h3> L'heure à cotonou et dans tout le pays</h3></i></u>
+    </div>
+    <div id="horloge" class="text3">
+        <script type="text/javascript">
+            function Timer() {
+                var dt = new Date()
+                document.getElementById("horloge").innerHTML = dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
+                setTimeout("Timer()", 900);
+                console.log("Exécution de Timer()");
+            }
+            Timer();
+        </script>
+    </div>
+    <br>
+    <hr>
+    <div class="text4">
+        <u><i><h3> Contactez Moi</h3></i></u>
+    </div> 
+    <br>
+    <form data-netlify="true">
+        <div class="text5">  
+            <div width="500px">
+                <input type="text" name="Nom" placeholder="Nom">
+            </div> 
+            <br>
+            <div>
+                <input type="text" name="Message" placeholder="Message">
+            </div>
+            <br>
+        <div class="text6"></div>
+            <button type="submit" class="btn btn-dark col-3">Valider</button>
+
+        <div class="fixed-bottom" style="text-align: right;">
+            
+            <a href="http://wa.me/22961189833" target="blank"><img src="i7.png" alt="" width="100px"> </a>
+        </div>
+    </form>  
+    
+    <script>
+        mediumZoom('img');
+    </script>
+</body>
+</html>
